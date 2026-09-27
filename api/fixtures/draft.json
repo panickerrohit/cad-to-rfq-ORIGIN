@@ -1,0 +1,14 @@
+{
+  "schema_version": "1",
+  "fields": {
+    "scope_of_work":           {"value": "Supply finished, inspected parts per the enclosed specification sheet and 3D model. Quote each quantity break separately and show NRE on its own line.", "confidence": 0.9, "note": "From material, finish, certs"},
+    "process_notes":           {"value": "Likely CNC milling from 6061-T6 plate or bar. Supplier to confirm routing and setups. Anodize after all machining.", "confidence": 0.7, "note": "Inferred from material"},
+    "inspection_requirements": {"value": "FAI on first article; measure the 22.00 mm pilot bore on every part. Ship CoC and material cert with each lot.", "confidence": 0.8, "note": ""},
+    "packaging":               {"value": "Individually bagged, bulk boxed", "confidence": 0.6, "note": "Not specified; default proposed"},
+    "quote_form_questions":    {"value": ["Lead time per break", "NRE", "Anodize outsourced?"], "confidence": 0.9, "note": ""}
+  },
+  "flags": [
+    {"severity": "warn", "field": "packaging", "message": "Packaging not specified; proposed a default."},
+    {"severity": "info", "field": "cad", "message": "STEP has no PMI; tolerances come only from the form."}
+  ]
+}

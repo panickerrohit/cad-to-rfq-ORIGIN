@@ -1,0 +1,11 @@
+node_modules/
+.next/
+api/jobs/
+**/__pycache__/
+.env
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+*.tsbuildinfo
+.DS_Store

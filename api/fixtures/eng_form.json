@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "part_name": "Stepper Motor Bracket",
+  "part_number": "SB-1042",
+  "revision": "A",
+  "material": "6061-T6 aluminum",
+  "general_tolerance": "ISO 2768-m",
+  "critical_dims": [{"feature": "Pilot bore", "value": "22.00 +0.05/-0", "unit": "mm"}],
+  "finish": "Type II clear anodize",
+  "qty_breaks": [25, 100, 500],
+  "target_delivery": "2026-11-06",
+  "certs": ["CoC", "material cert", "FAI"],
+  "packaging": null,
+  "buyer": {"company": "Northwind Robotics", "contact": "A. Rivera", "email": "procurement@northwind.example", "country": "US"},
+  "quote_due": "2026-10-09",
+  "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "source": {"filename": "SB-1042_RevA.step", "type": "step", "units": "mm"},
+  "bbox_mm": {"x": 80.0, "y": 60.0, "z": 68.0},
+  "volume_mm3": 72800.0,
+  "surface_area_mm2": 21870.2,
+  "solid_count": 1,
+  "is_assembly": false,
+  "views": [
+    {"name": "front", "key": "fixtures/views/front.pdf"},
+    {"name": "top",   "key": "fixtures/views/top.pdf"},
+    {"name": "right", "key": "fixtures/views/right.pdf"},
+    {"name": "iso",   "key": "fixtures/views/iso.pdf"}
+  ],
+  "warnings": ["Units look plausible", "No PMI found in STEP"]
+}

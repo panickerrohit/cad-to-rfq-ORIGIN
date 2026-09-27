@@ -1,0 +1,183 @@
+{
+  "schema_version": "1",
+  "job_id": "155e3cdf-6353-40c4-ae40-4181f8f7e3a6",
+  "fields": {
+    "scope_of_work": {
+      "value": "Supply finished, inspected parts per the enclosed specification sheet and 3D model. Quote each quantity break separately and show NRE on its own line.",
+      "source": "AI",
+      "approved": true,
+      "note": "From material, finish, certs"
+    },
+    "process_notes": {
+      "value": "Likely CNC milling from 6061-T6 plate or bar. Supplier to confirm routing and setups. Anodize after all machining.",
+      "source": "AI",
+      "approved": true,
+      "note": "Inferred from material"
+    },
+    "inspection_requirements": {
+      "value": "FAI on first article; measure the 22.00 mm pilot bore on every part. Ship CoC and material cert with each lot.",
+      "source": "AI",
+      "approved": true,
+      "note": ""
+    },
+    "packaging": {
+      "value": "Individually bagged, bulk boxed",
+      "source": "AI",
+      "approved": true,
+      "note": "Not specified; default proposed"
+    },
+    "quote_form_questions": {
+      "value": [
+        "Lead time per break",
+        "NRE",
+        "Anodize outsourced?"
+      ],
+      "source": "AI",
+      "approved": true,
+      "note": ""
+    },
+    "surface_area_mm2": {
+      "value": 21870.2,
+      "source": "CAD",
+      "approved": true
+    },
+    "bbox_mm": {
+      "value": {
+        "x": 80.0,
+        "y": 60.0,
+        "z": 68.0
+      },
+      "source": "CAD",
+      "approved": true
+    },
+    "solid_count": {
+      "value": 1,
+      "source": "CAD",
+      "approved": true
+    },
+    "volume_mm3": {
+      "value": 72800.0,
+      "source": "CAD",
+      "approved": true
+    },
+    "source_filename": {
+      "value": "SB-1042_RevA.step",
+      "source": "CAD",
+      "approved": true
+    },
+    "part_name": {
+      "value": "Stepper Motor Bracket",
+      "source": "ENG",
+      "approved": true
+    },
+    "part_number": {
+      "value": "SB-1042",
+      "source": "ENG",
+      "approved": true
+    },
+    "revision": {
+      "value": "A",
+      "source": "ENG",
+      "approved": true
+    },
+    "material": {
+      "value": "6061-T6 aluminum",
+      "source": "ENG",
+      "approved": true
+    },
+    "general_tolerance": {
+      "value": "ISO 2768-m",
+      "source": "ENG",
+      "approved": true
+    },
+    "critical_dims": {
+      "value": [
+        {
+          "feature": "Pilot bore",
+          "value": "22.00 +0.05/-0",
+          "unit": "mm"
+        }
+      ],
+      "source": "ENG",
+      "approved": true
+    },
+    "finish": {
+      "value": "Type II clear anodize",
+      "source": "ENG",
+      "approved": true
+    },
+    "qty_breaks": {
+      "value": [
+        25,
+        100,
+        500
+      ],
+      "source": "ENG",
+      "approved": true
+    },
+    "target_delivery": {
+      "value": "2026-11-06",
+      "source": "ENG",
+      "approved": true
+    },
+    "certs": {
+      "value": [
+        "CoC",
+        "material cert",
+        "FAI"
+      ],
+      "source": "ENG",
+      "approved": true
+    },
+    "buyer": {
+      "value": {
+        "company": "Northwind Robotics",
+        "contact": "A. Rivera",
+        "email": "procurement@northwind.example",
+        "country": "US"
+      },
+      "source": "ENG",
+      "approved": true
+    },
+    "quote_due": {
+      "value": "2026-10-09",
+      "source": "ENG",
+      "approved": true
+    }
+  },
+  "flags": [
+    {
+      "severity": "warn",
+      "field": "packaging",
+      "message": "Packaging not specified; proposed a default."
+    },
+    {
+      "severity": "info",
+      "field": "cad",
+      "message": "STEP has no PMI; tolerances come only from the form."
+    }
+  ],
+  "views": [
+    {
+      "name": "front",
+      "key": "fixtures/views/front.pdf"
+    },
+    {
+      "name": "top",
+      "key": "fixtures/views/top.pdf"
+    },
+    {
+      "name": "right",
+      "key": "fixtures/views/right.pdf"
+    },
+    {
+      "name": "iso",
+      "key": "fixtures/views/iso.pdf"
+    }
+  ],
+  "options": {
+    "page_size": "letter",
+    "include_internal_page": true,
+    "show_tags": true
+  }
+}
